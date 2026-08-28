@@ -17,10 +17,10 @@ export default function TermsPage() {
     >
       <LegalSection title="제1조 (목적)">
         <p>
-          이 약관은 {SITE_CONFIG.name}(이하 &ldquo;회사&rdquo;)이 제공하는 AI 기반 블라인드
-          소개팅 서비스 &ldquo;{SITE_CONFIG.name}&rdquo;(이하 &ldquo;서비스&rdquo;)의 이용과
-          관련하여 회사와 이용자의 권리, 의무 및 책임사항, 기타 필요한 사항을 정하는 것을
-          목적으로 합니다.
+          이 약관은 {SITE_CONFIG.legalName}(이하 &ldquo;회사&rdquo;)이 제공하는 AI 기반
+          블라인드 소개팅 서비스 &ldquo;{SITE_CONFIG.name}&rdquo;(이하 &ldquo;서비스&rdquo;)의
+          이용과 관련하여 회사와 이용자의 권리, 의무 및 책임사항, 기타 필요한 사항을 정하는
+          것을 목적으로 합니다.
         </p>
       </LegalSection>
 

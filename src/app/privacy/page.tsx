@@ -34,10 +34,10 @@ export default function PrivacyPage() {
     >
       <LegalSection title="1. 개요">
         <p>
-          {SITE_CONFIG.name}(이하 &ldquo;회사&rdquo;)은 이용자의 개인정보를 중요하게 생각하며,
-          「개인정보 보호법」 등 관련 법령을 준수합니다. 본 개인정보처리방침은{' '}
-          {SITE_CONFIG.name} 서비스(이하 &ldquo;서비스&rdquo;)에서 어떤 개인정보를 어떤 목적으로
-          처리하는지, 어떻게 보관하고 파기하는지를 안내합니다.
+          {SITE_CONFIG.legalName}(이하 &ldquo;회사&rdquo;)은 {SITE_CONFIG.name} 서비스(이하
+          &ldquo;서비스&rdquo;)를 운영하며, 이용자의 개인정보를 중요하게 생각하고 「개인정보
+          보호법」 등 관련 법령을 준수합니다. 본 개인정보처리방침은 회사가 서비스에서 어떤
+          개인정보를 어떤 목적으로 처리하는지, 어떻게 보관하고 파기하는지를 안내합니다.
         </p>
       </LegalSection>
 
@@ -130,8 +130,9 @@ export default function PrivacyPage() {
         <h3 className="pt-2 font-semibold text-ink">보관 및 삭제</h3>
         <LegalList
           items={[
-            '얼굴 정보는 위 목적을 위해 계정 이용 기간 동안 보관합니다.',
+            '얼굴 정보는 본인확인 및 AI 기반 매칭 등 서비스 제공에 필요한 범위에서 처리합니다.',
             '계정 삭제 시 얼굴 정보는 관련 정책 및 법령에 따라 삭제되거나 필요한 범위에서 분리 보관 후 파기됩니다.',
+            '구체적인 보관 및 파기 기준은 정식 출시 전 확정하여 본 방침을 통해 안내합니다.',
           ]}
         />
       </LegalSection>

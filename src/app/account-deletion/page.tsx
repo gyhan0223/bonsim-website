@@ -11,10 +11,13 @@ export const metadata: Metadata = {
 /**
  * Google Play "데이터 삭제" 정책 제출용 URL로 사용 예정.
  *
- * [출시 전 확정 필요] 현재 앱의 탈퇴(delete-account Edge Function)는 soft delete
- * (users.status='deleted' + 세션 무효화)이며, 같은 번호로 재로그인하면 복구 가능한 구조.
- * 일정 기간 경과 후 실제 파기/익명화 배치가 아직 미구현이므로(P0), 보관기간·파기 정책
- * 확정 및 배치 구현 후 이 페이지의 문구(특히 복구 가능 기간)를 갱신할 것.
+ * [출시 전 확정 필요]
+ * 1. 현재 앱의 탈퇴(delete-account Edge Function)는 soft delete
+ *    (users.status='deleted' + 세션 무효화)이며, 같은 번호로 재로그인하면 복구 가능한 구조.
+ * 2. 일정 기간 경과 후 실제 파기/익명화 파이프라인이 아직 미구현(P0) — 보관기간·파기 정책
+ *    확정 및 배치 구현 후 이 페이지의 문구(특히 복구 가능 기간)를 갱신할 것.
+ * 3. Google Play 출시 전, 앱을 사용할 수 없는 사용자도 웹에서 계정 삭제 요청을 시작할 수
+ *    있는 절차(요청 접수 → 본인확인 → 처리)가 추가로 필요.
  * 웹에서의 직접 삭제 요청 기능은 이번 범위에서 구현하지 않음 — 안내 페이지까지만.
  */
 export default function AccountDeletionPage() {
