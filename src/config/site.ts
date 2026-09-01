@@ -20,7 +20,7 @@ export const SITE_CONFIG = {
     '사진을 먼저 고르는 소개팅 대신, 성격과 가치관, 취향을 바탕으로 AI가 하루 한 사람을 소개합니다.',
 
   // TODO: 실제 도메인 확정/연결 후 교체 (Vercel 기본 도메인 placeholder)
-  siteUrl: 'https://bonsim-website.vercel.app',
+  siteUrl: 'https://bonsim.app',
 
   // ---- 사업자 정보 (사업자등록증 기준) ----
   legalName: '에이플',
