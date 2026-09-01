@@ -11,7 +11,6 @@
  * - supportEmail: 실제 수신 가능한 고객지원 이메일           ← TODO
  * - supportPhone: 고객지원 전화번호 (선택이지만 심사에 유리) ← TODO
  * - privacyOfficer: 개인정보 보호책임자 — 최종 확정 전까지 임의 지정 금지 ← TODO
- * - siteUrl: 실제 배포 도메인 확정 시 교체                   ← TODO
  */
 export const SITE_CONFIG = {
   name: '본심',
@@ -19,7 +18,6 @@ export const SITE_CONFIG = {
   description:
     '사진을 먼저 고르는 소개팅 대신, 성격과 가치관, 취향을 바탕으로 AI가 하루 한 사람을 소개합니다.',
 
-  // TODO: 실제 도메인 확정/연결 후 교체 (Vercel 기본 도메인 placeholder)
   siteUrl: 'https://bonsim.app',
 
   // ---- 사업자 정보 (사업자등록증 기준) ----
